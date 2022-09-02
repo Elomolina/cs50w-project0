@@ -9,6 +9,7 @@ body
    background-color: #554994;
    height:85px; 
    overflow-x: hidden;
+   overflow-y: hidden;
    margin-bottom: 30px;
     border: 1px solid white;
     align-items: center;

@@ -112,6 +112,22 @@ h5
       object-fit: contain;
     }
 }
+
+@media (max-width: 500px)
+{
+    .frase
+    {
+        align-items: center;
+       justify-content: center; 
+        flex-direction: column;
+    }
+    .imagen
+    {
+        display:none;
+    }
+    
+    
+}
 @media (max-width: 725px)
 {
     .cosas
