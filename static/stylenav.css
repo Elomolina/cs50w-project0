@@ -1,0 +1,32 @@
+body
+{
+    margin: 0;
+    background-color: rgb(238, 201, 244);
+   
+}
+.primeraFila
+{
+   background-color: #554994;
+   height:85px; 
+   overflow-x: hidden;
+   margin-bottom: 30px;
+    border: 1px solid white;
+    align-items: center;
+}
+.row a
+{
+    margin-right: 20px;
+    color: papayawhip;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.casita
+{
+    width:50%;
+    height:50%;
+}
+.primeraFila a:hover
+{
+    color: rgb(0, 0, 0);
+}
