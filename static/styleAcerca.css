@@ -11,9 +11,12 @@
 }
 img
 {
+    
     width: 100%;
     height:100%;
     object-fit: cover;
+
+   
 }
 .cosas
 {
@@ -29,6 +32,11 @@ img
     position:relative;
     bottom:20px;  
     text-align:center;
+}
+.btn
+{
+    position:relative;
+    left:20px;
 }
 .laSalle
 {
@@ -93,4 +101,31 @@ h5
 .cs50
 {
     width:200px;
+}
+
+@media (max-width: 700px)
+{
+    img
+    {
+      width:100%;
+      height:50%;
+      object-fit: contain;
+    }
+}
+@media (max-width: 725px)
+{
+    .cosas
+    {
+        height:0%;
+        flex-direction: column;
+    }
+    .cs50
+    {
+        width:150px;
+    }
+    .masdeYo
+    {
+        margin-top: 20px;
+    }
+    
 }

@@ -154,3 +154,53 @@ nav
     flex-direction: column;
     align-items: center;
 }
+@media (max-width: 700px) {
+    .fotoElo
+    {
+        width:100%;
+        height:50%;
+        object-fit: fill;
+    }
+}
+@media (max-width: 500px) {
+    .fotoElo
+    {
+        width:0%;
+        height:0%;
+    }
+    .parr
+    {
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .cards
+    {
+        position: relative;
+        left:25%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        width:150%;
+    }
+
+}
+@media (max-width: 493px)
+{
+    .links
+    {
+        margin-left:10px;
+    }
+}
+@media (max-width: 413px)
+{
+    .itemHeader
+    {
+        height:430px;
+    }
+    .Sobremi
+    {
+      border-top: 0px;
+    }
+}
