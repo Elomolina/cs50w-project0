@@ -19,8 +19,7 @@ body{
 }
 .itemHeader
 {
-    
-    background-image: url("https://elomolina.github.io/cs50w-project0/images/fondo.png");
+    background-image: url("/images/fondo.jpg");
     background-size: cover;
     display:grid;
     grid-template-columns: 1fr;
