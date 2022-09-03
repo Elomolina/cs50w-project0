@@ -1,0 +1,20 @@
+.footer
+{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+.redes > a
+{
+    margin-right:20px;
+}
+.footer
+{
+    background-color: rgb(239, 154, 154);
+}
+.footer > p
+{
+    font-weight: bold;
+}

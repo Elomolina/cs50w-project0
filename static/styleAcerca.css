@@ -1,0 +1,147 @@
+.parrafos
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(61, 58, 58);
+}
+.frase
+{
+    border-bottom: 4px solid white;
+    margin-bottom: 10px;
+}
+img
+{
+    
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+
+   
+}
+.cosas
+{
+    position: relative;
+    height:400px;
+   justify-content: center;
+   align-items: center;
+   gap:20px;
+   
+}
+.masdeYo
+{
+    position:relative;
+    bottom:20px;  
+    text-align:center;
+}
+.btn
+{
+    position:relative;
+    left:15px;
+}
+.laSalle
+{
+    text-align: center;
+    border-radius: 10%;
+    height: 200px;
+    background-color: rgb(96, 64, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.laSalle:hover
+{
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+#CS50:hover
+{
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+
+#CS50
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    height: 200px;
+    background-color: rgb(218, 148, 204);
+}
+
+.salle 
+{
+    
+    width:100px;
+    height:70px;
+}
+#parrafo
+{
+
+    color:rgb(18, 4, 68);
+}
+#parrafo:hover
+{
+    color:rgb(255, 0, 0);
+}
+.p 
+{
+    font-weight: bold;
+    color: rgb(255, 246, 246);
+}
+.pCS
+{
+    font-weight: bold;
+}
+h5
+{
+    color:black;
+}
+.cs50
+{
+    width:200px;
+}
+
+@media (max-width: 700px)
+{
+    img
+    {
+      width:100%;
+      height:50%;
+      object-fit: contain;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .frase
+    {
+        align-items: center;
+       justify-content: center; 
+        flex-direction: column;
+    }
+    .imagen
+    {
+        display:none;
+    }
+    
+    
+}
+@media (max-width: 725px)
+{
+    .cosas
+    {
+        height:0%;
+        flex-direction: column;
+    }
+    .cs50
+    {
+        width:150px;
+    }
+    .masdeYo
+    {
+        margin-top: 20px;
+    }
+    
+}
