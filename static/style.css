@@ -19,8 +19,7 @@ body{
 }
 .itemHeader
 {
-   
-    background-image: url( "{{ '/images/fondo.jpg' | relative_url }}");
+    background-image: url("/images/fondo.jpg");
     background-size: cover;
     display:grid;
     grid-template-columns: 1fr;
