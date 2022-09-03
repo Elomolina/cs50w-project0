@@ -1,0 +1,21 @@
+$color: rgb(239, 154, 154);
+.footer
+{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+.footer
+{
+    p
+    {
+        font-weight: bold;
+    }
+    background-color:$color;
+    .redes > a
+    {
+        margin-right:20px;
+    }
+}
